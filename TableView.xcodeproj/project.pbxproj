@@ -16,6 +16,7 @@
 		3566F2AB2A9B273800896834 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566F2AA2A9B273800896834 /* TableViewTests.swift */; };
 		3566F2B52A9B273800896834 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566F2B42A9B273800896834 /* TableViewUITests.swift */; };
 		3566F2B72A9B273800896834 /* TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566F2B62A9B273800896834 /* TableViewUITestsLaunchTests.swift */; };
+		3566F2C42A9B2DC800896834 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566F2C32A9B2DC800896834 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3566F2B02A9B273800896834 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3566F2B42A9B273800896834 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		3566F2B62A9B273800896834 /* TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3566F2C32A9B2DC800896834 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3566F2932A9B273600896834 /* AppDelegate.swift */,
 				3566F2952A9B273600896834 /* SceneDelegate.swift */,
 				3566F2972A9B273600896834 /* ViewController.swift */,
+				3566F2C32A9B2DC800896834 /* TableViewController.swift */,
 				3566F2992A9B273600896834 /* Main.storyboard */,
 				3566F29C2A9B273800896834 /* Assets.xcassets */,
 				3566F29E2A9B273800896834 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				3566F2982A9B273600896834 /* ViewController.swift in Sources */,
 				3566F2942A9B273600896834 /* AppDelegate.swift in Sources */,
 				3566F2962A9B273600896834 /* SceneDelegate.swift in Sources */,
+				3566F2C42A9B2DC800896834 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
