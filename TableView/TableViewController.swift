@@ -108,17 +108,17 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath){
         let userDefaults = UserDefaults.standard
         
-        print("削除前",names)
+        print("削除前",taskArray)
         if editingStyle == .delete{
             
-            self.names.remove(at: indexPath.row)
+            self.taskArray.remove(at: indexPath.row)
             
             tableView.deleteRows(at: [indexPath], with: .fade)
         }else if editingStyle == .insert{
             
         }
-        print("削除後",names)
-        userDefaults.set(names, forKey: "add")
+        print("削除後",taskArray)
+        userDefaults.set(taskArray, forKey: "add")
         
     }
     
