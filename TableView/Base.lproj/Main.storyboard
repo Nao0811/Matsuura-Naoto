@@ -150,6 +150,9 @@
                                 <rect key="frame" x="0.0" y="187" width="393" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="addTaskaddTask:" destination="rd9-xo-x1I" eventType="touchUpInside" id="BhJ-aM-GYv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M2T-vH-iDf"/>
@@ -176,6 +179,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Y6L-Pt-Ujb"/>
+                    <connections>
+                        <outlet property="addTextField" destination="2nv-7T-zU6" id="zI0-3c-CIs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZzO-Yu-jbF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
