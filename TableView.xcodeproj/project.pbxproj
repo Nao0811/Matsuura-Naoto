@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35387D852A9F81A000B38D18 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35387D842A9F81A000B38D18 /* AddListViewController.swift */; };
 		3566F2942A9B273600896834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566F2932A9B273600896834 /* AppDelegate.swift */; };
 		3566F2962A9B273600896834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566F2952A9B273600896834 /* SceneDelegate.swift */; };
 		3566F2982A9B273600896834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566F2972A9B273600896834 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35387D842A9F81A000B38D18 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 		3566F2902A9B273600896834 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3566F2932A9B273600896834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3566F2952A9B273600896834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				3566F2952A9B273600896834 /* SceneDelegate.swift */,
 				3566F2972A9B273600896834 /* ViewController.swift */,
 				3566F2C32A9B2DC800896834 /* TableViewController.swift */,
+				35387D842A9F81A000B38D18 /* AddListViewController.swift */,
 				3566F2992A9B273600896834 /* Main.storyboard */,
 				3566F29C2A9B273800896834 /* Assets.xcassets */,
 				3566F29E2A9B273800896834 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3566F2982A9B273600896834 /* ViewController.swift in Sources */,
+				35387D852A9F81A000B38D18 /* AddListViewController.swift in Sources */,
 				3566F2942A9B273600896834 /* AppDelegate.swift in Sources */,
 				3566F2962A9B273600896834 /* SceneDelegate.swift in Sources */,
 				3566F2C42A9B2DC800896834 /* TableViewController.swift in Sources */,
